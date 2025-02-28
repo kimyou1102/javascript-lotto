@@ -652,7 +652,7 @@ class Modal {
       className: "modal-close-button"
     });
     const $iconImage = document.createElement("img");
-    $iconImage.src = "../../public/x.svg";
+    $iconImage.src = "./public/x.svg";
     $button.appendChild($iconImage);
     $button.addEventListener("click", () => {
       this.closeModal($modalBg, $modal);
