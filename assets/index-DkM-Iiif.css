@@ -1,0 +1,258 @@
+.nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  flex-shrink: 0;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  margin: 0 0 0 20px;
+}
+
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.footer-text {
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.full-button {
+  width: 100%;
+  height: 36px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--main-color);
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-bg {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* display: none; */
+}
+
+.modal {
+  border-radius: 4px;
+  border: none;
+  padding: 16px;
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  /* display: none; */
+}
+
+.modal-close-button-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+
+.modal-none {
+  display: none;
+}
+
+.lotto-winning-result-container {
+  height: 700px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--light-gray);
+}
+
+.lotto-winning-result-title {
+  margin: 24px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.purchase-form-input-wrap {
+  height: 36px;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  gap: 16px;
+}
+
+.purchase-form-input {
+  flex-grow: 1;
+  border-radius: 4px;
+  border: 1px solid var(--light-gray);
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.purchase-form-info-text {
+  font-size: 15px;
+}
+
+.purchase-form-button {
+  width: 56px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+}
+
+.lotto-history-list {
+  padding: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.lotto-list-wrap {
+  overflow-y: auto;
+  height: 300px;
+}
+
+.lotto-history-item {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.lotto-history-item-icon {
+  font-size: 24px;
+}
+
+.lotto-history-item-text {
+  font-size: 20px;
+}
+
+.lotto-winning-info-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.lotto-number-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.lotto-number-input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lotto-numbers-wrap {
+  display: flex;
+  gap: 8px;
+}
+
+.bonus-input-wrap {
+  align-items: flex-end;
+}
+
+.number-input {
+  height: 36px;
+  width: 34px;
+  border-radius: 4px;
+  border: 1px solid var(--light-gray);
+}
+
+.winning-static-container {
+  height: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+.winning-static-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.rate-text {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.winning-static-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.table-head {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tabel-row {
+  text-align: center;
+}
+
+:root {
+  --main-color: #4e5ba6;
+  --light-gray: #b4b4b4;
+  --dark-gray: #8b8b8b;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  padding: 50px 0;
+}
